@@ -10,10 +10,15 @@ The most problem that faced me is that during  authentication. It has to check w
 
 First of all you need to install node.js. After installing node.js, you have to run the server app and client app as individuals by using npm start. After running the project, the app should be like as shown below.
 ```bash
-npm start
+cd frontend
+npm install
+npm run start
+cd backend
+npm install
+node index.js
 ```
 
-<img src='assets/image.png' style="width:100%;" />
+<img src='documents/assets/image.png' style="width:100%;" />
 
 ## Authentication
 
@@ -21,17 +26,17 @@ The sign up and the login pages are in the same file. That's mean it's easy to s
 
 ### Sign up page
 
-<img src='assets/auth.png' style="width:100%;" />
+<img src='documents/assets/auth.png' style="width:100%;" />
 
 ### When the user is already exist
 
 If the user already exists, it immediately disables the submit button
-<img src='assets/invalide.png' style="width:100%;" />
+<img src='documents/assets/invalide.png' style="width:100%;" />
 
 ## Preview of product
 
 All products must have title, description, createdDate, author, genres(tags) and price. Only the owner of this product can Delete & Edit it. The others won't show them the delete & edit buttons. 
-<img src='assets/preview.png' style="width:100%;" />
+<img src='documents/assets/preview.png' style="width:100%;" />
 
 ## What Services are provided ?
 
